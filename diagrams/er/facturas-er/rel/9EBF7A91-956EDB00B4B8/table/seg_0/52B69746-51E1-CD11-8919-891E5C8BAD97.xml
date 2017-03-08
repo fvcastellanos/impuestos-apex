@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52B69746-51E1-CD11-8919-891E5C8BAD97" name="proveedor">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:17:25 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nit" id="431086F8-6E1D-38E7-5BDA-E0AB5E15981C">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:18:56 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="E8F3C86F-72E1-ADF1-3A84-7B1795C4BAE6">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:23:36 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="AE7CD1F3-9EA7-337E-64D8-8ACF0362616E">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:31:49 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="204741B0-B4B2-8E34-33ED-6A2D8E46D252">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:23:36 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C8D90A7-24F8-05E5-CC87-7860BB74BE06" name="proveedor_PK">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:19:16 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="431086F8-6E1D-38E7-5BDA-E0AB5E15981C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

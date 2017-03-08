@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3752E68-CE17-4A0F-CA72-3B3C832E397D" name="foto_factura">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:44:05 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="02C88783-0611-6A13-4401-28DC0D932C52">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:46:30 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="factura_id" id="36D716CE-D503-E3ED-FA69-0772C3F1E7DD">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:46:30 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7882BE20-F786-F3C6-FC7F-05F2452A4A17" referredColumn="F42169A0-178C-FCA6-A762-F9F19AB8B55A"/>
+</associations>
+</Column>
+<Column name="nombre" id="8C968FE6-8A51-E365-B9EC-C3D524F54B75">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:46:30 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foto" id="640C7538-C91E-D1D5-54ED-68CD54BE99B2">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:46:30 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19989B25-C27F-DEC3-F53E-498CD4A167AE" name="foto_factura_PK">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:46:30 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02C88783-0611-6A13-4401-28DC0D932C52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0675B6E-2BF0-4214-CD40-F3657BF3F103" name="foto_factura_factura_FK">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:47:09 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36D716CE-D503-E3ED-FA69-0772C3F1E7DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

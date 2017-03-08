@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="facturas-er" id="9EBF7A91-2DB6-2F64-818F-956EDB00B4B8" mainViewID="6104F4A1-8B82-8711-0DC4-D0921DE5BD97">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:14:41 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

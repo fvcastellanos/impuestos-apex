@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="C026A002-4E3D-92F9-0AE7-182A0DF5B494">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:14:41 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

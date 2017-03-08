@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="6104F4A1-8B82-8711-0DC4-D0921DE5BD97" name="facturas-er" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

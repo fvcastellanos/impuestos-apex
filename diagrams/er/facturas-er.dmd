@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="facturas-er" id="76744549-D024-63F5-8708-C90DB2BB53A4" version="3.5">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:14:41 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>76744549-D024-63F5-8708-C90DB2BB53A4</designId>
+</OSDM_Design>

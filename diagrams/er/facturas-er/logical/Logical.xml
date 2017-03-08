@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7DF7AEF1-AECA-1A0D-66D8-B599DCC9C4D9" mainViewID="0DE4CECB-2E8F-252F-6109-A21938B28592">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:14:41 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

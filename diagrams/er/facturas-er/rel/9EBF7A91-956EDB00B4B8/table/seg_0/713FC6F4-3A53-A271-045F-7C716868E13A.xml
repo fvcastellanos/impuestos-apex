@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="713FC6F4-3A53-A271-045F-7C716868E13A" name="factura">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:27:04 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F42169A0-178C-FCA6-A762-F9F19AB8B55A">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:30:07 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contribuyente_id" id="D346ACFE-D1BB-24E0-1ABE-5DFF6F98539D">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:54:05 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07EC92E6-6915-9BD5-4DB4-120041C4E494" referredColumn="5E2F48EE-4FDA-8D93-07BA-B93217935096"/>
+</associations>
+</Column>
+<Column name="nit" id="65ED7DA9-0075-BBBC-0679-5CF2E6EF0973">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:42:22 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF852B58-4A60-4D12-B4BF-5F4406341E17" referredColumn="431086F8-6E1D-38E7-5BDA-E0AB5E15981C"/>
+</associations>
+</Column>
+<Column name="fecha" id="81806083-E495-1A9F-6D3F-4B12ABD486C1">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:30:07 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="serie" id="8D1466B4-D17C-07AB-30B1-21329695238C">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:38:33 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="027494EC-F254-24B5-D0EF-6A7F68071B7A">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:38:33 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto" id="A2CA500E-1F39-AED5-2028-0E6DB782CE04">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:38:33 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="notas" id="5A4E0572-8237-C013-E61B-5132DB5AB003">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:38:33 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7050571-EBD1-30D9-3620-96E1CA132F53" name="factura_PK">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:30:07 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F42169A0-178C-FCA6-A762-F9F19AB8B55A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B27324DD-6D6D-CC9A-95A2-F6020791A9CC" name="factura_proveedor_FK">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:42:43 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65ED7DA9-0075-BBBC-0679-5CF2E6EF0973"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7125CC43-7795-A343-0742-A7A44EC795C2" name="factura_contribuyente_FK">
+<createdBy>fvcg2</createdBy>
+<createdTime>2017-03-08 00:54:36 UTC</createdTime>
+<ownerDesignName>facturas-er</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D346ACFE-D1BB-24E0-1ABE-5DFF6F98539D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
